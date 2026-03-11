@@ -785,9 +785,9 @@ def main():
             - **frf** (formation resistivity factor)
             
             **Example:** porosity,permeability,sw
-0.15,10.5,0.35
-0.22,45.2,0.28
-0.08,0.5,0.75""")
+                         0.15,10.5,0.35
+                         0.22,45.2,0.28
+                         0.08,0.5,0.75
 """)
 
 st.stop()
