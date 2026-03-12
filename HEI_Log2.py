@@ -971,7 +971,7 @@ def show_example_format():
         - **sw** (water saturation, fraction or percentage)
         - **depth** (depth values)
         - **frf** (formation resistivity factor)
-        
+             
         **Example:**
         ```
         porosity,permeability,sw
@@ -987,7 +987,12 @@ def show_example_format():
 """)
 
 def display_summary_metrics(df: pd.DataFrame):
-"""Display summary metrics in columns."""
+"""
+Display summary metrics in columns.
+
+Args:
+df: DataFrame with calculated parameters
+"""
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -1002,7 +1007,14 @@ st.metric("Permeability Range",
          f"{df['permeability'].min():.2f} - {df['permeability'].max():.2f} mD")
 
 def display_tab_content(tab, content_function, *args):
-"""Helper function to display tab content with error handling."""
+"""
+Helper function to display tab content with error handling.
+
+Args:
+tab: Streamlit tab object
+content_function: Function to generate content
+*args: Arguments for content_function
+"""
 try:
 content_function(*args)
 except Exception as e:
