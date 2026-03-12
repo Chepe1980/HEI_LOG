@@ -1029,14 +1029,14 @@ initialize_session_state()
 
 # App title and description
 st.title("📊 HEI (Hydraulic-Electric Index) Rock Typing Analysis")
-st.markdown("""
+st.markdown(""
 This app reproduces the methodology from the paper:
 **"Development of a new hydraulic electric index for rock typing in carbonate reservoirs"** 
 (Scientific Reports, 2024)
 
 The Hydraulic-Electric Index (HEI) combines flow and electrical properties for improved 
 rock typing in complex carbonate reservoirs.
-""")
+"")
 
 # Sidebar
 with st.sidebar:
