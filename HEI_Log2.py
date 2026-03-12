@@ -1014,7 +1014,7 @@ Args:
 tab: Streamlit tab object
 content_function: Function to generate content
 *args: Arguments for content_function
-"""
+""
 try:
 content_function(*args)
 except Exception as e:
