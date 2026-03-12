@@ -1022,7 +1022,7 @@ tab.error(f"Error displaying content: {str(e)}")
 logger.error(f"Tab content error: {str(e)}")
 
 def main():
-"""Main Streamlit app."""
+""Main Streamlit app.""
 
 # Initialize session state
 initialize_session_state()
