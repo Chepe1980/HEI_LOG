@@ -987,7 +987,7 @@ def show_example_format():
 """)
 
 def display_summary_metrics(df: pd.DataFrame):
-"""
+#"""
 Display summary metrics in columns.
 
 Args:
